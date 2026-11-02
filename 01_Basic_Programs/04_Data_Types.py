@@ -1,0 +1,15 @@
+name = input("Enter your name: ")
+age = int(input("Enter your age: "))
+percentage = float(input("Enter your percentage: "))
+is_student = input("Are you a student (True/False): ")
+
+print("\nName:", name)
+print("Age:", age)
+print("Percentage:", percentage)
+print("Student:", is_student)
+
+print("\nData Types:")
+print(type(name))
+print(type(age))
+print(type(percentage))
+print(type(is_student))
